@@ -17,7 +17,7 @@ export default function Home() {
         <div className="home-content">
           <div className="home-container-name">
             <p className="home-P">Hello World,</p>
-            <h1 className="home-H1">Sou o Murilo.</h1>
+            <h1 className="home-H1">Sou o Murilo</h1>
             <div className="home-contacts-icon">
               <a href="https://www.linkedin.com/in/murilodospacos/"
               target="_blank"
@@ -41,9 +41,9 @@ export default function Home() {
             </div>
           </div>
           <div className='video'>
-            {/* <div className='video-container'>
+            <div className='video-container'>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/T80B7s7ekGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
