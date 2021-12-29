@@ -1,0 +1,6 @@
+.projetos-body {
+  height: 100vh;
+  background-image: url(../../images/projetos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

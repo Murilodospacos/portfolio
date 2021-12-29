@@ -1,0 +1,168 @@
+.skills-body {
+  height: 100vh;
+  background-image: url(../../images/skills.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills-H1 {
+  color: gray;
+  text-align: center;
+}
+
+.skills-H2 {
+  color: gray;
+}
+
+.skills-h3 {
+  color: gray;
+}
+/*--------- Hard Skills -------------------*/
+.skills-list-hard {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: gray;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+/*--------- container Soft / hard ----------*/
+.skills-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  text-align: center;
+}
+/*--------- container hard skills ----------*/
+.skills-container-Hard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+/*----------container soft skills ----------*/
+.skills-container-soft {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: gray;
+}
+/*----------container soft skills ----------*/
+.skills-container-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* ----- Tolls --------*/
+.skills-Tolls {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.SobreUl {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: gray;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+hr {
+  width: 63%;
+}
+
+@media screen and (max-width: 680px) {
+  .skills-body {
+    height: 100vh;
+    background-image: url(../../images/skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .skills-container {
+    padding-top: 105px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  /*----------container soft skills ----------*/
+.skills-container-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+/*--------- container hard skills ----------*/
+  .skills-container-Hard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*--------- Hard Skills -------------------*/
+  .skills-list-hard {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: gray;
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .skills-H1 {
+    color: rgba(0, 174, 255, 0.897);
+    text-align: center;
+  }
+
+  .skills-H2 {
+    color: rgba(0, 174, 255, 0.897);
+    margin: 5px;
+  }
+
+  .skills-h3 {
+    color: rgba(0, 174, 255, 0.897);
+  }
+  hr {
+    width: 85%;
+    margin-top: 0;
+  }
+  .SobreUl {
+    list-style-type: none;
+    size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+  }
+  .skills-Tolls {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
