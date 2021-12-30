@@ -6,7 +6,43 @@ export default function Projetos() {
   return (
     <div className='projetos-body'>
       <NavBar />
-      <h1>Projetos</h1>
+      <h1 className='projetos-H1'>Front-End</h1>
+        <div className='projetos-container'>
+          <div className='projetos-div'>
+            <div className='projetos-front'>
+              <h2 className='projetos-H2'>Pixel Art</h2>
+            </div>
+            <h3 className='projetos-H3'>Código GitHub</h3>
+          </div>
+          
+          <div className='projetos-div'>
+            <div className='projetos-front'>
+              <h2 className='projetos-H2'>Todo List</h2>
+            </div>
+            <h3 className='projetos-H3'>Código GitHub</h3>
+          </div>
+        </div>
+
+        <hr />
+
+        <h1 className='projetos-H1-back'>Back-End</h1>
+          <div className='projetos-container'>
+            <div className='projetos-div'>
+              <div className='projetos-back'>
+                <h2 className='projetos-H2'>Projeto 1</h2>
+              </div>
+              <h3 className='projetos-H3'>Código GitHub</h3>
+            </div>
+
+            <div className='projetos-div'>
+              <div className='projetos-back'>
+                <h2 className='projetos-H2'>Projeto 2</h2>
+              </div>
+              <h3 className='projetos-H3'>Código GitHub</h3>
+            </div>
+          </div>
+        
+
     </div>
   )
 }

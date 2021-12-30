@@ -4,3 +4,72 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.projetos-H1 {
+  text-align: center;
+  color: white;
+}
+
+.projetos-H1-back {
+  text-align: center;
+  color: white;
+}
+
+.projetos-H2 {
+  color: white;
+}
+
+.projetos-H3 {
+  color: gray;
+  margin-top: 5px;
+  font-size: 10pt;
+}
+
+.projetos-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.projetos-front {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.342);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.projetos-back {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.342);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.projetos-div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 680px) {
+  .projetos-H1{
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+    margin-bottom: 5px;
+  }
+  .projetos-H1-back {
+    text-align: center;
+    color: white;
+    margin: 3px;
+  }
+}
