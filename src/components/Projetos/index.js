@@ -21,11 +21,11 @@ export default function Projetos() {
           
           <div className='projetos-div'>
             <div className='projetos-front'>
-              <a href="https://murilodospacos.github.io/trybe-projects/Project-Pixels-Art/" target="_blank" rel="noreferrer">
+              <a href="https://murilodospacos.github.io/trybe-projects/Project-Todo-List/" target="_blank" rel="noreferrer">
                 <h2 className='projetos-H2'>Todo List</h2>
               </a>
             </div>
-            <a href='https://github.com/Murilodospacos/trybe-projects/tree/main' target="_blank" rel='noreferrer'>
+            <a href='https://github.com/Murilodospacos/trybe-projects/tree/murilopacos-todo-list-project' target="_blank" rel='noreferrer'>
               <h3 className='projetos-H3'>Código GitHub</h3>
             </a>
           </div>
