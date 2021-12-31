@@ -18,6 +18,9 @@
 .projetos-H2 {
   color: white;
 }
+.projetos-H2-mongodb {
+  color: white;
+}
 
 .projetos-H3 {
   color: gray;
@@ -71,7 +74,7 @@ a {
   .projetos-H1{
     text-align: center;
     color: white;
-    padding-top: 120px;
+    padding-top: 110px;
     margin-top: 0;
     margin-bottom: 5px;
   }
@@ -82,7 +85,7 @@ a {
   }
   .projetos-front {
     width: 70%;
-    height: 35px; 
+    height: 55px; 
     display: flex;
     justify-content: center;
     background: rgba(255, 255, 255, 0.342);
@@ -91,7 +94,7 @@ a {
   }
   .projetos-back {
     width: 70%;
-    height: 35px;
+    height: 55px;
     display: flex;
     justify-content: center;
     background: rgba(255, 255, 255, 0.342);

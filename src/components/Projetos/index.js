@@ -49,7 +49,7 @@ export default function Projetos() {
             <div className='projetos-div'>
               <div className='projetos-back'>
                 <a href="https://github.com/Murilodospacos/trybe-projects/tree/murilopacos-mongodb-commerce" target="_blank" rel="noreferrer">
-                  <h2 className='projetos-H2'>Mongodb Commerce</h2>
+                  <h2 className='projetos-H2-mongodb'>Mongodb Commerce</h2>
                 </a>
               </div>
               <a href='https://github.com/Murilodospacos/trybe-projects/tree/murilopacos-mongodb-commerce' target="_blank" rel='noreferrer'>
