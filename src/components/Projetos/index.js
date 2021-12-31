@@ -37,22 +37,22 @@ export default function Projetos() {
           <div className='projetos-container'>
             <div className='projetos-div'>
               <div className='projetos-back'>
-                <a href="https://murilodospacos.github.io/trybe-projects/Project-Pixels-Art/" target="_blank" rel="noreferrer">
-                  <h2 className='projetos-H2'>Projeto 1</h2>
+                <a href="https://github.com/Murilodospacos/trybe-projects/tree/murilopacos-sd-011-project-talker-manager" target="_blank" rel="noreferrer">
+                  <h2 className='projetos-H2'>Talker Manager</h2>
                 </a>
               </div>
-              <a href='https://github.com/Murilodospacos/trybe-projects/tree/main' target="_blank" rel='noreferrer'>
+              <a href='https://github.com/Murilodospacos/trybe-projects/tree/murilopacos-sd-011-project-talker-manager' target="_blank" rel='noreferrer'>
                 <h3 className='projetos-H3'>Código GitHub</h3>
               </a>
             </div>
 
             <div className='projetos-div'>
               <div className='projetos-back'>
-                <a href="https://murilodospacos.github.io/trybe-projects/Project-Pixels-Art/" target="_blank" rel="noreferrer">
-                  <h2 className='projetos-H2'>Projeto 2</h2>
+                <a href="https://github.com/Murilodospacos/trybe-projects/tree/murilopacos-mongodb-commerce" target="_blank" rel="noreferrer">
+                  <h2 className='projetos-H2'>Mongodb Commerce</h2>
                 </a>
               </div>
-              <a href='https://github.com/Murilodospacos/trybe-projects/tree/main' target="_blank" rel='noreferrer'>
+              <a href='https://github.com/Murilodospacos/trybe-projects/tree/murilopacos-mongodb-commerce' target="_blank" rel='noreferrer'>
                 <h3 className='projetos-H3'>Código GitHub</h3>
               </a>
             </div>
