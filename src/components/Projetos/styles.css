@@ -71,7 +71,8 @@ a {
   .projetos-H1{
     text-align: center;
     color: white;
-    padding-top: 130px;
+    padding-top: 120px;
+    margin-top: 0;
     margin-bottom: 5px;
   }
   .projetos-H1-back {

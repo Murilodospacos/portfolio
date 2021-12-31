@@ -85,6 +85,7 @@ a {
     justify-content: center;
     align-content: center;
     align-items: center;
+    padding-right: 0;
     gap: 20px;
   }
   .home-container-name {
@@ -112,5 +113,8 @@ a {
   a {
     color: grey;
     padding-right: 5px;
+  }
+  .home-contacts-icon {
+    display: flex;
   }
 }
