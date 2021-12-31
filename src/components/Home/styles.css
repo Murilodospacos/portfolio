@@ -71,6 +71,11 @@ a {
 }
 /*---------------------------------------------*/
 
+.home-contacts-icon {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 680px) {
   .home-body {
     width: 100%;
