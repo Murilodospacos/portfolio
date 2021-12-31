@@ -10,16 +10,24 @@ export default function Projetos() {
         <div className='projetos-container'>
           <div className='projetos-div'>
             <div className='projetos-front'>
-              <h2 className='projetos-H2'>Pixel Art</h2>
+              <a href="https://murilodospacos.github.io/trybe-projects/Project-Pixels-Art/" target="_blank" rel="noreferrer">
+                <h2 className='projetos-H2'>Pixel Art</h2>
+              </a>
             </div>
-            <h3 className='projetos-H3'>Código GitHub</h3>
+            <a href='https://github.com/Murilodospacos/trybe-projects/tree/main' target="_blank" rel='noreferrer'>
+              <h3 className='projetos-H3'>Código GitHub</h3>
+            </a>
           </div>
           
           <div className='projetos-div'>
             <div className='projetos-front'>
-              <h2 className='projetos-H2'>Todo List</h2>
+              <a href="https://murilodospacos.github.io/trybe-projects/Project-Pixels-Art/" target="_blank" rel="noreferrer">
+                <h2 className='projetos-H2'>Todo List</h2>
+              </a>
             </div>
-            <h3 className='projetos-H3'>Código GitHub</h3>
+            <a href='https://github.com/Murilodospacos/trybe-projects/tree/main' target="_blank" rel='noreferrer'>
+              <h3 className='projetos-H3'>Código GitHub</h3>
+            </a>
           </div>
         </div>
 
@@ -29,16 +37,24 @@ export default function Projetos() {
           <div className='projetos-container'>
             <div className='projetos-div'>
               <div className='projetos-back'>
-                <h2 className='projetos-H2'>Projeto 1</h2>
+                <a href="https://murilodospacos.github.io/trybe-projects/Project-Pixels-Art/" target="_blank" rel="noreferrer">
+                  <h2 className='projetos-H2'>Projeto 1</h2>
+                </a>
               </div>
-              <h3 className='projetos-H3'>Código GitHub</h3>
+              <a href='https://github.com/Murilodospacos/trybe-projects/tree/main' target="_blank" rel='noreferrer'>
+                <h3 className='projetos-H3'>Código GitHub</h3>
+              </a>
             </div>
 
             <div className='projetos-div'>
               <div className='projetos-back'>
-                <h2 className='projetos-H2'>Projeto 2</h2>
+                <a href="https://murilodospacos.github.io/trybe-projects/Project-Pixels-Art/" target="_blank" rel="noreferrer">
+                  <h2 className='projetos-H2'>Projeto 2</h2>
+                </a>
               </div>
-              <h3 className='projetos-H3'>Código GitHub</h3>
+              <a href='https://github.com/Murilodospacos/trybe-projects/tree/main' target="_blank" rel='noreferrer'>
+                <h3 className='projetos-H3'>Código GitHub</h3>
+              </a>
             </div>
           </div>
         

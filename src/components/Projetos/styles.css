@@ -60,16 +60,54 @@
   justify-content: center;
 }
 
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 680px) {
   .projetos-H1{
     text-align: center;
     color: white;
-    padding-top: 110px;
+    padding-top: 130px;
     margin-bottom: 5px;
   }
   .projetos-H1-back {
     text-align: center;
     color: white;
     margin: 3px;
+  }
+  .projetos-front {
+    width: 70%;
+    height: 35px; 
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.342);
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  .projetos-back {
+    width: 70%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.342);
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  .projetos-H3 {
+    color: gray;
+    margin-top: 0px;
+    font-size: 12pt;
+  }
+  .projetos-div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 }
