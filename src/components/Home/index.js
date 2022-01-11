@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar/index';
+import PdfCurriculo from '../../Documents/Curriculo-Murilo.pdf';
 import './styles.css';
 
 import {
@@ -38,6 +39,9 @@ export default function Home() {
               rel="noopener noreferrer">
                 <AiOutlineWhatsApp />
               </a>
+            </div>
+            <div className='pdf-curriculo'>
+              <a href = { PdfCurriculo } target = "_blank" rel="noreferrer">Download Currículo</a>
             </div>
           </div>
           <div className='video'>

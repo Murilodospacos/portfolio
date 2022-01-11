@@ -17,6 +17,14 @@
   gap: 50px;
 }
 
+/* ------------ PDF Curriculo ----------------*/
+.pdf-curriculo a{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 8px;
+  color: rgb(0, 107, 168);
+}
+
 /*------------ Ajuste fontes Nome --------------*/
 .home-P {
   color: grey;
