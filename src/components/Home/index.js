@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from "react-player"
 import NavBar from '../NavBar/index';
 import PdfCurriculo from '../../Documents/Curriculo-Murilo.pdf';
 import './styles.css';
@@ -42,6 +43,9 @@ export default function Home() {
           <div className='pdf-curriculo'>
             <a href = { PdfCurriculo } target = "_blank" rel="noreferrer">Download Currículo</a>
           </div>
+        </div>
+        <div className='video-pitch'>
+          <ReactPlayer url='https://youtu.be/HLrNMwTHd1w' />
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@
 /* ------------ PDF Curriculo ----------------*/
 .pdf-curriculo a{
   display: flex;
-  font-size: 18pt;
+  font-size: 14pt;
   justify-content: flex-start;
   padding-top: 8px;
   color: rgb(0, 107, 168);
@@ -44,12 +44,12 @@
   color: white;
   padding: 0;
   margin: 0;
-  font-size: 56pt;
+  font-size: 45pt;
 }
 
 .home-contacts-icon {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   padding-top: 7px;
   gap: 15px;
 }
