@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from "react-player"
+import VideoPlayer from "../Iframe/YoutubeEmbed"
 import NavBar from '../NavBar/index';
 import PdfCurriculo from '../../Documents/Curriculo-Murilo.pdf';
 import './styles.css';
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </div>
         <div className='video-pitch'>
-          <ReactPlayer url='https://youtu.be/HLrNMwTHd1w' />
+          <VideoPlayer embedId="HLrNMwTHd1w"/>
         </div>
       </div>
     </div>

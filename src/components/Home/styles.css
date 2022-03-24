@@ -10,6 +10,7 @@
   height: 80%;
   width: 100%;
   display: flex;
+  /* gap: 20px; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -64,6 +65,11 @@ a {
   flex-direction: row;
 }
 
+/* --------Video Picth ---------------*/
+.video-pitch{
+  display: flex;
+}
+
 @media screen and (max-width: 680px) {
   .home-body {
     width: 100%;
@@ -74,18 +80,33 @@ a {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
   }
   .home-container-name {
-    width: 100%;
+    /* width: 100%; */
+    /* top: -50px; */
+    margin-top: -50px;
     display: flex;
-    text-align: center;
+    text-align:start;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+  }
+  .home-P {
+    color: grey;
+    font-size: 22pt;
+    padding: 0;
+    margin: 0;
+  }
+  .home-H1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 35pt;
   }
   a {
     color: grey;
@@ -93,14 +114,14 @@ a {
   }
   .home-contacts-icon {
     display: flex;
-    font-size: 50px;
+    font-size: 40px;
     gap: 15px;
   }
   .pdf-curriculo a{
     display: flex;
     justify-content: flex-start;
-    font-size: 25pt;
-    padding-top: 50px;
+    font-size: 18pt;
+    padding-top: 20px;
     color: rgb(0, 107, 168);
   }
 }
